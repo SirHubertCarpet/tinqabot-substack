@@ -1,0 +1,11 @@
+# Never commit the live KB SQLite — it lives in the private working tree only.
+tinqabot_memory.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Build/working artefacts that may leak in via stray scp/ssh
+*.bak.*
+.DS_Store
+__pycache__/
+*.pyc
